@@ -4,25 +4,17 @@
 
 ## Introduction
 
+* [Layouts](introduction/layouts.md)
+* [Themes](introduction/themes.md)
 * [Sass](introduction/working-with-sass.md)
-* [Grunt](introduction/working-with-grunt.md)
-* [Gulp](introduction/working-with-gulp.md)
-* [Browser Support](introduction/browser-support.md)
-* [Rails](introduction/rails.md)
-* [Layouts](layouts.md)
-* [API Reference](api-reference.md)
+* [Content](introduction/content.md)
 
 ## Apps
 
 * [Calendar](apps/calendar.md)
 * [Social](apps/social.md)
 * [Email](apps/untitled.md)
-* [Content](content.md)
-* [Themes](themes.md)
-* [Grid](grid.md)
-* [Views](views.md)
-* [Helpers](helpers.md)
-* [Cards](cards.md)
+* [API Reference](api-reference.md)
 
 ## UI Elements
 
@@ -61,8 +53,19 @@
 * [Google Maps](maps/google.md)
 * [Vector Maps](maps/vector-maps.md)
 * [Tables](tables.md)
+* [Cards](cards.md)
 * [Timeline](timeline.md)
+* [Views](views.md)
+* [Grid](grid.md)
+* [Helpers](helpers.md)
 * [Troubleshooting](troubleshooting.md)
+* [Browser Support](browser-support.md)
 * [Change log](change-log.md)
 * [Legacy Docs](legacy-docs.md)
+
+## Other
+
+* [Grunt](other/working-with-grunt.md)
+* [Gulp](other/working-with-gulp.md)
+* [Rails](other/rails.md)
 
