@@ -1,11 +1,11 @@
 # Themes
 
-This part of the documentation will explain how to change the current theme to pages pre-build themes, pages themes are made with concentrated color palete and its not just changing the theme to pure red but entire color pallet and its done by just replacing one line of code  
+Once you have selected the layout you wish to use in the previous article. You should decide to whether to use CSS or SCSS. Pages support both options. Next Pages comes with 8 color themes to select. See below how to change or use them.  
 
 
 ## **Using CSS**
 
-We have already included 4 pre-made themes found inside `pages/css/themes/` To switch the theme remove the existing pages.css to the one located in inside `themes/` folder
+We have already included 8 pre-made themes found inside `pages/css/themes/` To switch the theme remove the existing pages.css to the one located in inside `themes/` folder
 
 1. Default
 
@@ -19,19 +19,20 @@ We have already included 4 pre-made themes found inside `pages/css/themes/` To s
    <link class="main-stylesheet" href="pages/css/themes/corporate.css" rel="stylesheet" type="text/css" />
    ```
 
-3. Retro
+3. Light
+4. Retro
 
    ```markup
    <link class="main-stylesheet" href="pages/css/themes/retro.css" rel="stylesheet" type="text/css" />
    ```
 
-4. Unlax
+5. Unlax
 
    ```markup
    <link class="main-stylesheet" href="pages/css/themes/unlax.css" rel="stylesheet" type="text/css" />
    ```
 
-5. Abstract
+6. Abstract
 
    ```markup
    <link class="main-stylesheet" href="pages/css/themes/abstract.css" rel="stylesheet" type="text/css" />

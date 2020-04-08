@@ -7,7 +7,7 @@ description: >-
 
 # Layouts
 
-## **Pages Condensed**
+## **Condensed**
 
 One of our most popular Layouts, Pages Condensed offers a wide range of responsive space specifically for dashboards with heavy content.   
   
@@ -17,7 +17,7 @@ Demo Files -`demo/html/consended/`
 
 ![Starter Template](../.gitbook/assets/screenshot-2020-04-08-at-6.28.16-pm.png)
 
-## **Pages Casual**
+##  **Casual**
 
 A new tone of voice – a relaxed, friendly, joyful layout that quickly makes the user experience more personal, casual and fun!. Comes with horizontal layout and sidebar option   
   
@@ -26,7 +26,7 @@ Demo Files -`demo/html/casual/`
 
 ![](../.gitbook/assets/screenshot-2020-04-08-at-6.30.34-pm.png)
 
-## **Pages Corporate**
+## **Corporate**
 
 Corporate is a bold, cool Layout that elevates your content by utilizing a clean layout and a simple, open interface. Contains boxed version and secondary sidebar.   
   
