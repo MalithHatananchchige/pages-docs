@@ -1,10 +1,3 @@
----
-description: >-
-  As mentioned in the Getting Started guide, Pages core framework files can be
-  found in the pages folder. Inside this you'll be able to find pages.js and
-  pages.min.js files which contain the core logic
----
-
 # API Reference
 
 ```markup
@@ -26,7 +19,6 @@ The following table shows which plugins are auto-initialized and their default c
 |  | `<a href="#" data-toggle="tooltip" data-placement="bottom" title="Print"><i class="fa fa-print"></i></a>` |
 | [Select2](http://ivaynberg.github.io/select2/) | Set `[data-init-plugin="select2"]` |
 | [Scrollbar](http://gromo.github.io/jquery.scrollbar/) | Set `class="scrollbar"`&lt;div style="height:200px" class="scrollbar"&gt;  ...&lt;/div&gt; |
-| [Switchery](http://abpetkov.github.io/switchery/) | Set `[data-init-plugin="switchery"]`&lt;input type="checkbox" data-init-plugin="switchery" checked="checked"/&gt; |
 | SelectFx | Set `[data-init-plugin="cs-select"]`&lt;select class="cs-select cs-skin-slide" data-init-plugin="cs-select"&gt;    &lt;option value="Websafe"&gt;Web-safe&lt;/option&gt;    &lt;option value="Helvetica"&gt;Helvetica&lt;/option&gt;    &lt;option value="SegeoUI"&gt;SegeoUI&lt;/option&gt;&lt;/select&gt; |
 | [Unveil](http://luis-almeida.github.io/unveil/) | Applied to any `img` |
 
@@ -34,22 +26,22 @@ The following table shows which plugins are auto-initialized and their default c
 
 $.Pages.isVisibleXs\(\)
 
-Returns true if the current viewport is an [extra small device](http://getbootstrap.com/css/#responsive-utilities). ex: Phones \(&lt;768px\)  
+Returns true if the current viewport is an extra small device. ex: Phones \(&lt;768px\)  
 
 
 $.Pages.isVisibleSm\(\)
 
-Returns true if the current viewport is a [small device](http://getbootstrap.com/css/#responsive-utilities). ex: Tablets \(≥768px\)  
+Returns true if the current viewport is a small device. ex: Tablets \(≥768px\)  
 
 
 $.Pages.isVisibleMd\(\)
 
-Returns true if the current viewport is a [medium device](http://getbootstrap.com/css/#responsive-utilities). ex: Desktops \(≥992px\)  
+Returns true if the current viewport is a medium device. ex: Desktops \(≥992px\)  
 
 
 $.Pages.isVisibleLg\(\)
 
-Returns true if the current viewport is a [large device](http://getbootstrap.com/css/#responsive-utilities). ex: Desktops \(≥1200px\)  
+Returns true if the current viewport is a large device. ex: Desktops \(≥1200px\)  
 
 
 $.Pages.getUserAgent\(\)
@@ -64,7 +56,7 @@ Makes the given element to go full-screen mode. ex: `$.Pages.setFullScreen(docum
 
 $.Pages.getColor\(color,opacity\)
 
-Returns the `rgba` value for a given [Pages contextual color](http://pages.revox.io/dashboard/4.1.0/html/condensed/color.html) and opacity.
+Returns the `rgba` value for a given [Pages contextual color](http://pages.revox.io/dashboard/latest/html/condensed/color.html) and opacity.
 
 ## How to auto re-initialize Pages plugins
 
