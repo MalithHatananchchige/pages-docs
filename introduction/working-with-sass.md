@@ -9,17 +9,19 @@ description: >-
 
 Sass Files are found under `pages/src/sass`
 
-* [sass](http://pages.revox.io/dashboard/3.0.0/docs/partials/sass.html#)
-  * [modules](http://pages.revox.io/dashboard/3.0.0/docs/partials/sass.html#)
-  * [themes](http://pages.revox.io/dashboard/3.0.0/docs/partials/sass.html#)
-  * [mixin.scss](http://pages.revox.io/dashboard/3.0.0/docs/partials/sass.html#)
-  * [modules.scss](http://pages.revox.io/dashboard/3.0.0/docs/partials/sass.html#)
-  * [pages.scss](http://pages.revox.io/dashboard/3.0.0/docs/partials/sass.html#)
-  * [responsive.scss](http://pages.revox.io/dashboard/3.0.0/docs/partials/sass.html#)
+* sass
+  * modules
+  * themes
+  * mixin.scss
+  * color.scss
+  * modules.scss
+  * pages.scss
+  * responsive.scss
+  * var.scss
 
 ## **Modules**
 
-The separation of modules help you to remove what's not necessary and build your own custom pages CSS
+The separation of modules help you to remove what's not necessary and build your own custom pages CSS. You can specify which module you need and do not need in modules.scss file.
 
 | NAME | DESCRIPTION |
 | :--- | :--- |
@@ -34,6 +36,7 @@ The separation of modules help you to remove what's not necessary and build your
 | breadcrumb.scss | Bootstrap breadcrumb classes |
 | notifications.scss | Pages notifications, bootstrap badges, popovers |
 | checkbox.scss | Pages checkboxes  |
+| radio.scss | Pages radio element |
 | horizontal\_layout.scss | Pages horizontal layout classes for executive and casual layout |
 | horizontal\_menu.scss | Horizontal dropdown menu |
 | icons.scss | Pages icons |
